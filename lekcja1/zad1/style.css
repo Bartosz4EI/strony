@@ -16,8 +16,9 @@ h1{
 main{
     width: 640px;
     padding: 24px;
-    margin: 24px;
+    margin: 24px auto;
     border: solid 2px #5c3a21;
+    
 }
 img{
     border: solid 4px #c9a227;
