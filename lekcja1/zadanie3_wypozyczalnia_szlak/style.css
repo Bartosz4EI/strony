@@ -13,3 +13,9 @@ header, footer{
 h1, footer{
     text-align: center;
 }
+h1{
+    font-weight: 700;
+}
+h2{
+    font-weight: 400;
+}
