@@ -1,1 +1,15 @@
-
+html{
+    background-color: rgb(247, 243, 232);
+    color: rgb(45, 90, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5px;
+}
+header, footer{
+    background-color: rgb(45, 90, 61);
+    color: #ffffff;
+    margin: 16px;
+}
+h1, footer{
+    text-align: center;
+}
