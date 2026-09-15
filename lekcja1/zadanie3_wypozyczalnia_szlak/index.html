@@ -1,1 +1,84 @@
-
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bartosz Łabądź 4EI">
+    <title>Szlak — wypożyczalnia</title>
+</head>
+<body>
+    <header>
+        <h1>Wypożyczalnia Szlak</h1>
+        <nav>
+        <a href="#cennik">Cennik</a>
+        <a href="#rezerwacja">Rezerwacja</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Sprzęt</h2>
+            <dl>
+                <dt>Namiot 2-os.</dt>
+                <dd>40 zł za dobę</dd>
+                <dt>Rower trekkingowy</dt>
+                <dd>55 zł za dobę</dd>
+                <dt>Kajak</dt>
+                <dd>70 zł za dobę</dd>
+            </dl>
+        </section>
+        <section id="cennik">
+            <h2>Cennik</h2>
+            <table>
+                <tr>
+                    <th>Sprzęt</th>
+                    <th><b>Doba</b></th>
+                    <th><b>Weekend</b></th>
+                </tr>
+                <tr>
+                    <th>Namiot 2-os.</th>
+                    <th>40 zł</th>
+                    <th>70 zł</th>
+                </tr>
+                <tr>
+                    <th>Rower trekkingowy</th>
+                    <th>55 zł</th>
+                    <th>95 zł</th>
+                </tr>
+                <tr>
+                    <th>Kajak</th>
+                    <th>70 zł</th>
+                    <th>120 zł</th>
+                </tr>
+            </table>
+        </section>
+        <section id="rezerwacja">
+            <h2>Rezerwacja</h2>
+            <form action="" method="post">
+                <div class="form-grupa">
+                    <label for="imie">Imię</label>
+                    <input type="text" id="imie" name="imie" required>
+                </div>
+        
+                <div class="form-grupa">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+        
+                <div class="form-grupa">
+                    <label for="sprzet">Sprzęt</label>
+                    <select id="sprzet" name="sprzet">
+                        <option value="namiot">Namiot 2-os.</option>
+                        <option value="rower">Rower trekkingowy</option>
+                        <option value="kajak">Kajak</option>
+                    </select>
+                </div>
+        
+                <button type="submit">Zarezerwuj</button>
+            </form>
+        
+        </section>
+    </main>
+</body>
+</html>
