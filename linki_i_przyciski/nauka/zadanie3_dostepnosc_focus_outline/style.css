@@ -12,3 +12,17 @@ body {
   border: 1px solid #bbf7d0;
 }
 /* TODO: Zaimplementuj .btn-pobierz oraz stany :focus i :hover */
+
+.btn-pobierz{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0f766e;
+  color: white;
+}
+.btn-pobierz:focus{
+  outline: 3px solid #0d9488;
+  outline-offset: 4px;
+}
+.btn-pobierz:hover{
+  background-color: #115e59;
+}
